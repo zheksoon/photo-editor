@@ -1,0 +1,21 @@
+.image-container {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-display {
+	text-align: center;
+}
+
+.image-display canvas {
+	max-height: 100vh;
+	display: inline-block;
+	width: 100%;
+}
+
+.open-image {
+	width: 400px;
+	text-align: center;
+}

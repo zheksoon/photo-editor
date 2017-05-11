@@ -1,0 +1,60 @@
+.filters-container {
+	flex: 0 0 400px;
+	height: 100%;
+	text-align: center;
+	background-color: #222222;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.filter-group {
+	margin-top: 20px;
+}
+
+.filter {
+	padding: 0 20px;
+	text-align: left;
+}
+
+.filter.active {
+	background-color: #333333;
+}
+
+.filter-name {
+	width: 100%;
+	padding-right: 40px;
+	text-align: left;
+}
+
+.filter-min,
+.filter-max {
+	min-width: 20px;
+}
+
+.filter-param {
+	width: 200px;
+	max-width: 200px;
+}
+
+.filter-actions {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.action-apply,
+.action-reset {
+	margin: 0 10px;
+}
+
+.action-reset {
+	color: white;
+	text-decoration: underline;
+}
+
+.save-button-wrapper {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+}
